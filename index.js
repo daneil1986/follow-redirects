@@ -135,7 +135,7 @@ RedirectableRequest.prototype.end = function (data, encoding, callback) {
 // Sets a header value on the current native request
 RedirectableRequest.prototype.setHeader = function (name, value) {
   this._options.headers[name] = value;
-  this._currentRequest.setHeader(name, value);
+  // this._currentRequest.setHeader(name, value);
 };
 
 // Clears a header value on the current native request
