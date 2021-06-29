@@ -1,5 +1,5 @@
 {
-  "name": "@/tiku/follow-redirects",
+  "name": "@tiku/follow-redirects",
   "version": "0.0.1",
   "description": "HTTP and HTTPS modules that follow redirects.",
   "license": "MIT",
